@@ -11,11 +11,14 @@ body {
 h1{
     color: white;
 }
+.burger{
+  font-size: 30%;
+}
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-content: center;
   padding: 1vh;
 }
 .container2{
@@ -32,19 +35,19 @@ h1{
 }
 .flex-child{
   background-color: #ffb2dd;
-  margin: 30px;
+  margin: 2vh;
   height: 150vh;
   color: white;
 }
 .flex-child2{
   background-color: #ffb2dd;
-  margin: 1vh;
+  margin: 2vh;
   height: 150vh;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: flex-end;
+  align-content: flex-start;
 }
 .item{ 
 width: 35rem;
@@ -54,3 +57,9 @@ height: 35rem;
   width: 35rem;
   height: 35rem;
   }
+.flex-child2{
+  align-content: flex-end;
+}
+.hamburger {
+  font-size: 30%;
+}
