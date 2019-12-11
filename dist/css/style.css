@@ -20,6 +20,10 @@ h1 {
   color: white;
 }
 
+.burger {
+  font-size: 30%;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,9 +34,8 @@ h1 {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   padding: 1vh;
 }
 
@@ -60,14 +63,14 @@ h1 {
 
 .flex-child {
   background-color: #ffb2dd;
-  margin: 30px;
+  margin: 2vh;
   height: 150vh;
   color: white;
 }
 
 .flex-child2 {
   background-color: #ffb2dd;
-  margin: 1vh;
+  margin: 2vh;
   height: 150vh;
   color: white;
   display: -webkit-box;
@@ -80,8 +83,8 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
 .item {
@@ -92,5 +95,14 @@ h1 {
 .item2 {
   width: 35rem;
   height: 35rem;
+}
+
+.flex-child2 {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.hamburger {
+  font-size: 30%;
 }
 /*# sourceMappingURL=style.css.map */
