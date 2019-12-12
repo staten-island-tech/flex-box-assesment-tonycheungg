@@ -20,6 +20,11 @@ h1 {
   color: white;
 }
 
+h2 {
+  color: white;
+  font-size: 62.5%;
+}
+
 .burger {
   font-size: 30%;
 }
@@ -57,21 +62,20 @@ h1 {
 
 .flex-parent {
   background-color: #424242;
-  height: 150vh;
   font-size: 1000%;
 }
 
 .flex-child {
   background-color: #ffb2dd;
   margin: 2vh;
-  height: 150vh;
+  height: 100vh;
   color: white;
 }
 
 .flex-child2 {
   background-color: #ffb2dd;
   margin: 2vh;
-  height: 150vh;
+  height: 100vh;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,8 +87,8 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
 }
 
 .item {
@@ -98,11 +102,28 @@ h1 {
 }
 
 .flex-child2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-line-pack: end;
       align-content: flex-end;
 }
 
 .hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1vh;
   font-size: 30%;
 }
 /*# sourceMappingURL=style.css.map */
