@@ -8,10 +8,14 @@ body {
   background-color: #1b1b1b;
   height: 100%;
 }
-h1{
-    color: white;
+h1 {
+  color: white;
 }
-.burger{
+h2 {
+  color: white;
+  font-size: 62.5%;
+}
+.burger {
   font-size: 30%;
 }
 .container {
@@ -21,45 +25,50 @@ h1{
   align-content: center;
   padding: 1vh;
 }
-.container2{
+.container2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
   padding: 1vh;
 }
-.flex-parent{
+.flex-parent {
   background-color: #424242;
-  height: 150vh;
   font-size: 1000%;
 }
-.flex-child{
+.flex-child {
   background-color: #ffb2dd;
   margin: 2vh;
-  height: 150vh;
+  height: 100vh;
   color: white;
 }
-.flex-child2{
+.flex-child2 {
   background-color: #ffb2dd;
   margin: 2vh;
-  height: 150vh;
+  height: 100vh;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: flex-start;
+  align-content: flex-end;
 }
-.item{ 
-width: 35rem;
-height: 35rem;
-}
-.item2 { 
+.item {
   width: 35rem;
   height: 35rem;
-  }
-.flex-child2{
+}
+.item2 {
+  width: 35rem;
+  height: 35rem;
+}
+.flex-child2 {
+  display: flex;
   align-content: flex-end;
 }
 .hamburger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1vh;
   font-size: 30%;
 }
