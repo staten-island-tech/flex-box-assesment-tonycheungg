@@ -2,31 +2,38 @@ html {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.header {
-  background-color: blue;
-  height: 30vh;
-}
-
+/* $primary-color: #1b1b1b;
+$secondary-color: #424242;
+$tertiary-color: #d32f2f; */
 html {
   font-size: 62.5%;
 }
 
 body {
-  background-color: #1b1b1b;
+  background-color: #FFFFFF;
   height: 100%;
 }
 
+.title {
+  color: #000000;
+  font-size: 300%;
+  text-align: center;
+}
+
 h1 {
-  color: white;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 h2 {
-  color: white;
+  color: #FFFFFF;
   font-size: 62.5%;
+  text-align: center;
 }
 
 .burger {
   font-size: 30%;
+  text-align: center;
 }
 
 .container {
@@ -41,7 +48,6 @@ h2 {
       justify-content: space-around;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 1vh;
 }
 
 .container2 {
@@ -57,26 +63,30 @@ h2 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 1vh;
 }
 
 .flex-parent {
-  background-color: #424242;
+  background-color: #1b1b1b;
+  font-size: 500%;
+}
+
+.flex-parent2 {
+  background-color: #1b1b1b;
   font-size: 1000%;
 }
 
 .flex-child {
-  background-color: #ffb2dd;
+  background-color: #d32f2f;
   margin: 2vh;
   height: 100vh;
-  color: white;
+  color: #FFFFFF;
 }
 
 .flex-child2 {
-  background-color: #ffb2dd;
+  background-color: #d32f2f;
   margin: 2vh;
   height: 100vh;
-  color: white;
+  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,5 +135,9 @@ h2 {
           align-items: flex-end;
   padding: 1vh;
   font-size: 30%;
+}
+
+.fries {
+  font-size: 62.5%;
 }
 /*# sourceMappingURL=style.css.map */
