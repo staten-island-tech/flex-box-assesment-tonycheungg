@@ -5,48 +5,58 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: #1b1b1b;
+  background-color: $primary-color;
   height: 100%;
 }
+.title {
+  color: $title-color;
+  font-size: 300%;
+  text-align: center;
+}
 h1 {
-  color: white;
+  color: $primary-color;
+  text-align: center;
 }
 h2 {
-  color: white;
+  color: $primary-color;
   font-size: 62.5%;
+  text-align: center;
 }
 .burger {
   font-size: 30%;
+  text-align: center;
 }
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  padding: 1vh;
 }
 .container2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
-  padding: 1vh;
 }
 .flex-parent {
-  background-color: #424242;
+  background-color: $secondary-color;
+  font-size: 500%;
+}
+.flex-parent2 {
+  background-color: $secondary-color;
   font-size: 1000%;
 }
 .flex-child {
-  background-color: #ffb2dd;
+  background-color: $tertiary-color;
   margin: 2vh;
   height: 100vh;
-  color: white;
+  color: $primary-color;
 }
 .flex-child2 {
-  background-color: #ffb2dd;
+  background-color: $tertiary-color;
   margin: 2vh;
   height: 100vh;
-  color: white;
+  color: $primary-color;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -71,4 +81,7 @@ h2 {
   align-items: flex-end;
   padding: 1vh;
   font-size: 30%;
+}
+.fries {
+  font-size: 62.5%;
 }
